@@ -1,0 +1,1 @@
+This repository consists TypeScript examples from my learning and practice.
