@@ -1,0 +1,9 @@
+Execute the init command in project root directory. 
+    tsc --init
+TypeScript will create a configuration file called as 'tsconfig.json'
+
+This configuration file allows us to configure various options using JSON properties.
+
+Eg:
+"noEmitOnError": true
+Does not emit JS files if  there are errors in TS files

@@ -2,10 +2,11 @@
 bower_components/
 node_modules/
 .vscode/
-
+out/
 
 #Exclude tsc generated files
 js/*.map
 js/ts.js
 
 *.js
+
