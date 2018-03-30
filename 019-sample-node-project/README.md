@@ -1,11 +1,14 @@
 Use the below command to initiate a node project
+```
     npm init
-
+```
 A package.json file will be created.
 
 
 Create a script target in 'scripts' property in package.json file.
+```
     "start": "tsc && node ./out/index.js"
+```
 We are chaining commands here.
     tsc (compiles TypeScript based on 'tsconfig.json' file)
     node ./out/index.js (executes 'index.js' file)
