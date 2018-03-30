@@ -1,0 +1,12 @@
+{
+  "name": "020-github-report-project",
+  "version": "1.0.0",
+  "description": "This is a simple hands on project to practice TypeScript + NodeJS.\r The project is referenced from https://javabrains.io/courses/typescript_basics/",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./out/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
