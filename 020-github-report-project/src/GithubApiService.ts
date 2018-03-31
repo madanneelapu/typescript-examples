@@ -1,5 +1,6 @@
 import * as request from 'request';
 import { User } from './User';
+import { Repo } from './Repo';
 
 const OPTIONS : any = { 
     headers:{   
@@ -22,8 +23,12 @@ export class GithubApiService{
             });
     }
 
-    getRepos(){
-
+    getRepos(userName: string, cb : (repos:Repo[]) => any){
+        request.get("https://api.github.com/users/"+userName+"/repos", OPTIONS, 
+            (error : any, response : any, body : any)=>{
+                let repos = body.map((e) => new Repo(e));
+                cb(repos);
+            });
     }
 
 }
