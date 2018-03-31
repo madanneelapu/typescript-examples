@@ -9,16 +9,16 @@ const OPTIONS : any = {
 };
 
 export class GithubApiService{
-    getUserInfo(userName: string){
-        
+
+    //this is an async method, because it uses request.get which is an async method.
+    //So we cannot return anything from it, but we need to send the user object
+    //back to the caller. One way to handle this is to use callbacks.
+    getUserInfo(userName: string, cb: (user: User) => any){
+
         request.get("https://api.github.com/users/"+userName, OPTIONS, 
             (error : any, response : any, body : any)=>{
-                /*console.log(error);    
-                console.log(response);*/
-                //console.log(body);
-
                 let user = new User(body);
-                console.log(user);
+                cb(user);
             });
     }
 
