@@ -1,4 +1,5 @@
 import * as request from 'request';
+import { User } from './User';
 
 export class GithubApiService{
     getUserInfo(userName: string){
@@ -14,7 +15,10 @@ export class GithubApiService{
             (error : any, response : any, body : any)=>{
                 /*console.log(error);    
                 console.log(response);*/
-                console.log(body);
+                //console.log(body);
+
+                let user = new User(body);
+                console.log(user);
             });
     }
 
