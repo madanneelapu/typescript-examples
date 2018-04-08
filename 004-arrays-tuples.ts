@@ -1,8 +1,8 @@
 //Arrays
 
-var a: number[];
+var a: number[]; //Array of numbers
 
-a = [];
+a = []; //Initializing to an empty array
 a = [1,2,3];
 //a= 1; //Error
 //a=[1,"2"]; //Error
@@ -14,11 +14,11 @@ var e: number;
 e = a.pop();
 
 var b: boolean;
-//b = a.pop(); //Error
+//b = a.pop(); //Error - A number cannot be assigned to a boolean variable
 
 
 //Tuples
-var myTuple: [number, boolean];
+var myTuple: [number, boolean]; //Declaring a tuple
 myTuple = [1, true];
 myTuple = [100, false];
 

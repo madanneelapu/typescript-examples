@@ -1,12 +1,12 @@
+//Enumerations
 
 //In the below enum; Sunday will be assigned a value of 0, Monday wil be assigned a value 1 and so on..
-
 
 enum DaysOfTheWeek{
     SUN, MON, TUE, WED, THU, FRI, SAT
 }
 
-let day : DaysOfTheWeek;
+let day : DaysOfTheWeek; //Creating a variable of type enum
 day = DaysOfTheWeek.MON;
 
 if (day === DaysOfTheWeek.MON){ //Comparision is done using the assigned value

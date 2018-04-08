@@ -1,3 +1,4 @@
+//Inheritance and Polymorphism
 
 class MyBaseClass{
     firstName : string;
@@ -24,4 +25,4 @@ myDerivedClassObj.invokeMethodFromSuperClass();
 
 var myDerivedClassObj2 : MyBaseClass = new MyDerivedClass(); //Polymorphism
 myDerivedClassObj2.greet();
-//myDerivedClassObj2.invokeMethodFromSuperClass(); //Error
+//myDerivedClassObj2.invokeMethodFromSuperClass(); //Error - Super class reference doesn't know about methods in sub-class

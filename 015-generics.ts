@@ -1,3 +1,5 @@
+//Generics
+
 
 //A function which returns back the same datatype as its input. Input datatype can be anything.
 function myFn(a: any) : any{
@@ -60,7 +62,7 @@ function myFn4(a: Employee) : Employee{
     return a;
 }
 
-var returnDev2 = myFn4(dev); //return type is Employee. Not Developer. We are loosing some info here.
+var returnDev2 = myFn4(dev); //return type is Employee. Not Developer. We are loosing some type-info here.
 var returnMan2 = myFn4(manager); //return type is Employee
 //var returnStu2 = myFn4(student); //Error
 

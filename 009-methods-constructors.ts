@@ -8,14 +8,14 @@ class Person2{ //use class keyword
         this.lastName=" ";
     }*/
 
-    constructor(firstName:string, lastName:string){
+    constructor(firstName:string, lastName:string){ //Constructor with arguments
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
 
 
-    getFullName(){
+    getFullName(){ //method
         return this.firstName + " " + this.lastName;
     }
 

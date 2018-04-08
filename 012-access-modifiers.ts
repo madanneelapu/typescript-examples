@@ -1,3 +1,5 @@
+//Access Modifiers
+
 class MyCustomClass{
    /* private firstName : string;
     private lastName : string;
@@ -7,7 +9,7 @@ class MyCustomClass{
         this.lastName = lastName;
     }*/
 
-    //shortcut for the above code
+    //shortcut for the above code (Declaration + Constructor)
     constructor(private firstName:string, private lastName : string){    }
 
     public getFirstName() : string{

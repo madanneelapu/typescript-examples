@@ -1,7 +1,7 @@
 //A module is essentially a .ts file
 console.log("Loading Module");
 
-export class Trainee{ //Use export keyword to mark a class that can be imported to other modules
+export class Trainee{ //Use 'export' keyword to mark a class that can be imported to other modules
     traineeId:number;
     traineeName:string;
 

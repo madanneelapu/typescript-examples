@@ -1,3 +1,4 @@
+//variables in JS are not typesafe.
 /*var a;
 
 a = 10;
@@ -6,6 +7,7 @@ a = {};
 
 */
 
+//Variables in TS can be made typesafe
 var a: number;
 
 a = 10;

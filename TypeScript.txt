@@ -6,9 +6,9 @@ A free and opensource programming language created and maintained by Microsoft.
 
 Why TypeScript?
 Problems with JavaScript:
-No type checking.
-No checking for function arguments.
-Cannot enforce the structure of objects. Objects are loosely structured in JavaScript.
+- No type checking.
+- No checking for function arguments.
+- Cannot enforce the structure of objects. Objects are loosely structured in JavaScript.
 
 Moreover, the Application complexity is increasing with everyday. 
 
@@ -23,14 +23,14 @@ This is Kind of possible with TypeScript.
 Development Time------------------->RunTime-------------->
 TypeScript -> TypeScript Compiler -> JavaScript -> Browser
 
-TypeScript is Transpiled to JavaScript. Some call it compilation.
+TypeScript is Transpiled to JavaScript. Some people call it compilation.
 
 
 What does TypeScript provide?
 TypeScript -> JavaScript + types (and some other stuff)
 TypeScript is a superset of JavaScript.
 
-It provides a way to use new features of JS without Devs worrying about the compatability.
+It provides a way to use new features of JS without developers worrying about the compatability.
 
 TypeScript makes building complex apps more manageable.
 
@@ -38,9 +38,9 @@ Frameworks like Angular are using TypeScript extensively.
 
 
 Setting Up Dev Environment:
-
-Install an editor like VSCode.
-Install NodeJS.
-Install TypeScript Compiler.
+---------------------------
+1. Install an editor like VSCode.
+2. Install NodeJS.
+3. Install TypeScript Compiler.
 
 

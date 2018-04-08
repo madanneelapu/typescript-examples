@@ -19,7 +19,7 @@ var sum2 = add2(1,2);
 console.log(sum2);
 
 
-//Optional Arguments
+//Optional Arguments - '?' means optional
 function add3(a:number ,b:number, c? : number){
     return a +b;
 }

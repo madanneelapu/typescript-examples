@@ -1,3 +1,5 @@
+//Intefaces
+
 interface MyInterface{
     firstName: string; //Variable Declaration
     lastName:string;
@@ -15,7 +17,9 @@ class MyImpl implements MyInterface {
 
 var MyInterfaceObj : MyInterface = new MyImpl(); //Assigning impl object to interface reference
 
-//Duck Typing is also supported in TypeScript
+
+
+//Duck Typing is supported in TypeScript
 //Create an object which has the same structure as 'MyInterface', but has no relation with 'MyInterface'.
 var someObj = {
     firstName: "Madan",

@@ -1,5 +1,5 @@
 //TypeScript impicitly assigns type information if
-//variable declaration and assignment are done on the same line.
+//the variable declaration and assignment are done on the same line.
 
 //In the case of variables
 var a = 10; // Implicit number
@@ -16,7 +16,7 @@ d = "mike";
 function myFn(): string{
     return "hello";
 }
-var myFnRt = myFn(); // Implicit String
+var myFnRt = myFn(); // 'myFnRt' is of type  String (Implicitly)
 
 var myFnRt2;
 myFnRt2 =  myFn(); //No implicit typing. 'myFnRt2' will not be a string, instead it is of type 'any'

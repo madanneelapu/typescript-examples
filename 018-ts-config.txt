@@ -1,3 +1,7 @@
+TypeScript Configuration:
+-------------------------
+
+
 Execute the init command in project root directory. 
     tsc --init
 TypeScript will create a configuration file called as 'tsconfig.json'

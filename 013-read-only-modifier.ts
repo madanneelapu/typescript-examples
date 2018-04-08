@@ -1,5 +1,5 @@
 //values of Readonly properties cannot be changed, once they are assigned.
-//we can set values to readonly properties either in declaration or inside constructor.
+//we can set values to readonly properties only either in declaration or inside the constructor.
 class Circle {
     readonly pi = 3.14; 
     readonly maxradius;
