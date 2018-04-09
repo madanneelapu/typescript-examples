@@ -15,3 +15,11 @@ var b : number | boolean     //'b' can accept only 'number' or 'boolean'
 b = 10;
 b = true;
 //b = "madan"; //Error
+
+
+//Type Assertion (Type Casting)
+
+var s ; 
+s = "madan";
+
+var len = (<string> s).length; //Casting 'any' type to 'string'
